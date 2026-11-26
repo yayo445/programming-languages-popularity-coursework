@@ -1,0 +1,9 @@
+,global_pushers_2026q2,countries_2026q2,pldbScore,numberOfUsersEstimate,numberOfJobsEstimate,wikipedia_dailyPageViews,bookCount,language_age_2026
+global_pushers_2026q2,1.0,0.654,0.279,0.633,0.419,0.567,0.429,0.027
+countries_2026q2,0.654,1.0,0.461,0.482,0.336,0.611,0.441,0.03
+pldbScore,0.279,0.461,1.0,0.335,0.298,0.535,0.436,0.122
+numberOfUsersEstimate,0.633,0.482,0.335,1.0,0.914,0.766,0.637,0.14
+numberOfJobsEstimate,0.419,0.336,0.298,0.914,1.0,0.642,0.531,0.157
+wikipedia_dailyPageViews,0.567,0.611,0.535,0.766,0.642,1.0,0.673,0.204
+bookCount,0.429,0.441,0.436,0.637,0.531,0.673,1.0,0.254
+language_age_2026,0.027,0.03,0.122,0.14,0.157,0.204,0.254,1.0

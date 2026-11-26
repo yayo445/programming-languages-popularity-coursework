@@ -1,0 +1,196 @@
+{
+  "na_pitfall": {
+    "languages_false_na": 93,
+    "developers_false_na": 26,
+    "repositories_false_na": 26
+  },
+  "eu_counts": {
+    "languages_eu_rows": 5510,
+    "developers_eu_rows": 26,
+    "repositories_eu_rows": 26
+  },
+  "raw_audit": {
+    "languages": {
+      "rows": 190246,
+      "cols": 6,
+      "unique_languages": 405,
+      "unique_iso2": 188,
+      "periods": 26,
+      "min_period": "2020-Q1",
+      "max_period": "2026-Q2",
+      "exact_duplicates": 0,
+      "missing_total": 0,
+      "num_pushers_min": 101,
+      "num_pushers_max": 1424465
+    },
+    "developers": {
+      "rows": 5888,
+      "cols": 4,
+      "exact_duplicates": 0,
+      "missing_total": 0
+    },
+    "repositories": {
+      "rows": 5866,
+      "cols": 4,
+      "exact_duplicates": 0,
+      "missing_total": 0
+    },
+    "pldb": {
+      "rows": 5159,
+      "cols": 403,
+      "selected_cols": 15,
+      "exact_duplicates": 0
+    }
+  },
+  "pldb_cleaning": {
+    "nulls_before": {
+      "id": 0,
+      "name": 0,
+      "appeared": 0,
+      "primaryTag": 0,
+      "rank": 0,
+      "pldbScore": 0,
+      "foundationScore": 0,
+      "numberOfUsersEstimate": 0,
+      "numberOfJobsEstimate": 0,
+      "githubLanguage_repos": 4669,
+      "wikipedia_dailyPageViews": 3494,
+      "bookCount": 0,
+      "paperCount": 0,
+      "isOpenSource": 3528,
+      "creators": 3515
+    },
+    "duplicate_keys_dropped": 85,
+    "invalid_appeared_nullified": 43,
+    "clean_rows": 5074
+  },
+  "clean_shapes": {
+    "languages_clean": [
+      184736,
+      6
+    ],
+    "languages_eu": [
+      5510,
+      6
+    ],
+    "developers_clean": [
+      5862,
+      4
+    ],
+    "repositories_clean": [
+      5840,
+      4
+    ],
+    "enriched_final": [
+      184736,
+      33
+    ]
+  },
+  "merges": {
+    "merge1_match_pct": 100.0,
+    "merge2_match_pct": 100.0,
+    "merge3_row_match_pct": 94.41,
+    "merge3_volume_match_pct": 99.11,
+    "merge3_unique_matched_langs": 341
+  },
+  "outlier_audit": {
+    "num_pushers": {
+      "upper_fence": 2930.5,
+      "outliers_count": 26115,
+      "outliers_pct": 14.14
+    },
+    "pushers_per_1000_devs": {
+      "upper_fence": 8.15,
+      "outliers_count": 23726,
+      "outliers_pct": 12.84
+    },
+    "developers": {
+      "upper_fence": 5079619.0,
+      "outliers_count": 19957,
+      "outliers_pct": 10.8
+    },
+    "repositories": {
+      "upper_fence": 12960821.0,
+      "outliers_count": 18266,
+      "outliers_pct": 9.89
+    },
+    "language_share_pct": {
+      "upper_fence": 7.65,
+      "outliers_count": 24498,
+      "outliers_pct": 13.26
+    },
+    "language_age": {
+      "upper_fence": 64.0,
+      "outliers_count": 1467,
+      "outliers_pct": 0.84
+    }
+  },
+  "global_totals": {
+    "devs_2020q1": 45478340,
+    "devs_2026q2": 209096270,
+    "devs_growth_x": 4.6,
+    "ua_devs_2020q1": 568562,
+    "ua_devs_2026q2": 1825045,
+    "ua_devs_growth_x": 3.21,
+    "ua_repos_2020q1": 1637559,
+    "ua_repos_2026q2": 4771302,
+    "ua_repos_growth_x": 2.91,
+    "ua_rows_total": 2234,
+    "ua_unique_langs": 119
+  },
+  "corr_pairs": {
+    "global_pushers_2026q2__vs__countries_2026q2": {
+      "n": 303,
+      "spearman_r": 0.9896,
+      "spearman_p": 9.71668159059875e-256,
+      "pearson_r": 0.6252,
+      "pearson_p": 2.8646207279951694e-34
+    },
+    "global_pushers_2026q2__vs__pldbScore": {
+      "n": 303,
+      "spearman_r": 0.3982,
+      "spearman_p": 5.939484514777965e-13,
+      "pearson_r": 0.2192,
+      "pearson_p": 0.00011987556122696208
+    },
+    "global_pushers_2026q2__vs__numberOfUsersEstimate": {
+      "n": 303,
+      "spearman_r": 0.3247,
+      "spearman_p": 7.199794376501972e-09,
+      "pearson_r": 0.6292,
+      "pearson_p": 8.34781185117552e-35
+    },
+    "global_pushers_2026q2__vs__numberOfJobsEstimate": {
+      "n": 303,
+      "spearman_r": 0.4018,
+      "spearman_p": 3.5008129442220107e-13,
+      "pearson_r": 0.4215,
+      "pearson_p": 1.7759891187643392e-14
+    },
+    "global_pushers_2026q2__vs__bookCount": {
+      "n": 303,
+      "spearman_r": 0.3585,
+      "spearman_p": 1.2860945282799037e-10,
+      "pearson_r": 0.4327,
+      "pearson_p": 2.9544692813421524e-15
+    },
+    "global_pushers_2026q2__vs__wikipedia_dailyPageViews": {
+      "n": 202,
+      "spearman_r": 0.5579,
+      "spearman_p": 6.391845826595857e-18,
+      "pearson_r": 0.5668,
+      "pearson_p": 1.4485561879202744e-18
+    },
+    "global_pushers_2026q2__vs__language_age_2026": {
+      "n": 303,
+      "spearman_r": 0.1517,
+      "spearman_p": 0.008162491646582712,
+      "pearson_r": 0.0696,
+      "pearson_p": 0.2268367265319861
+    }
+  },
+  "tableau_rows": {
+    "tableau_languages_main": 89845,
+    "tableau_language_summary": 303
+  }
+}
